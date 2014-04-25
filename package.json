@@ -2,6 +2,9 @@
   "name": "app-scripts",
   "version": "0.1.0",
   "description": "App scripts",
+  "bin": {
+    "newrelic-deploy-svn": "./bin/deploy-svn.sh"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
